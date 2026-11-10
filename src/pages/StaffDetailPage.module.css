@@ -1,0 +1,22 @@
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 0.6rem 1rem;
+  margin: 0 0 1.5rem;
+  max-width: 560px;
+}
+
+.details dt {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.details dd {
+  margin: 0;
+  word-break: break-word;
+}

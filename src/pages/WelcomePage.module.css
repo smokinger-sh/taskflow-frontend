@@ -1,0 +1,53 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 1.25rem;
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.selected {
+  border-color: var(--text);
+}
+
+.count {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.in_progress {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.completed {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.cancelled {
+  background: #fee2e2;
+  color: #991b1b;
+}

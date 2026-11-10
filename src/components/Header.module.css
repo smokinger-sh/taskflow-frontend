@@ -1,0 +1,43 @@
+/* .header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.9rem 1.5rem;
+  background: var(--primary);
+  color: #fff;
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.tagline {
+  opacity: 0.8;
+  font-size: 0.9rem;
+} */
+
+
+.header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.9rem 1.5rem;
+  /* Premium dark indigo/blue gradient */
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08); /* Clean divider line */
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.tagline {
+  color: #94a3b8; /* Cleaner look than just reducing opacity */
+  font-size: 0.9rem;
+}
